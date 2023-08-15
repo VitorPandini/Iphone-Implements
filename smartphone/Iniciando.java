@@ -7,17 +7,17 @@ public class Iniciando {
 
 
         //Funcoes de internet
-        iphone.adicionarNovaAba();
-        iphone.atualizarPagina();
-        iphone.exibirPagina();
+        System.out.println(iphone.adicionarNovaAba());
+        System.out.println(iphone.atualizarPagina());
+        System.out.println(iphone.exibirPagina());
 
         //Funcoes de mp3
-        iphone.tocar();
-        iphone.pausar();
-        iphone.selecionarMusica("Metallica Album");
+        System.out.println(iphone.tocar());
+        System.out.println(iphone.pausar());
+        System.out.println(iphone.selecionarMusica("Metallica Album"));
 
         //Funcoes telefonicas
-        iphone.ligar();
+        System.out.println(iphone.ligar());
         System.out.println(iphone.atender());
         System.out.println(iphone.inciarCorreioDeVoz());
     }
